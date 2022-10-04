@@ -1,6 +1,6 @@
 ## Data Warehouse Challenge 2021: Jr Data Engineer
 
-***instructions on how to reproduce it***
+### instructions on how to reproduce it
 
 
 ### Procedure 1: run it on docker
