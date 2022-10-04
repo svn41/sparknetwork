@@ -8,7 +8,7 @@
 > run docker on your machine,
 > clone this repository,
 > create virtual environmenton on docker with the help of dockerfile in this repository,
-> run docker image
+> run it docker image
 
 ### Procedure 2: run it on local virtual environment 
 
