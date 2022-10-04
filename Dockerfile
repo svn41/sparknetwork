@@ -1,7 +1,13 @@
-FROM python: 3.9
+FROM python:3.9
 
-ADD main.py
+WORKDIR /code
 
-RUN 
+COPY main.py .
+
+COPY requirements.txt .
+
+COPY snowCred.json .
+
+RUN pip install --no-cache-dir --upgrade -r /code/requirements.txt
 
 CMD ["python", "./main.py"]
